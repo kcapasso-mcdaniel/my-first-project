@@ -1,62 +1,73 @@
 .small-image {
-    width: 90px;
-    margin: 15px 5px 5px 0px;
-    border: solid;
-  }
-  body{
-    font-family: Impact, Charcoal, sans-serif;
-    background-color: rbg
-  }
-  h1 {
-    margin: 30px 0px 15px 20px;
-  }
-  h2 {
-    font-size: 24px;
-  }
-  p {
-    margin-top: 10px;
-    margin-left: 60px;
-  }
-  h3 {
-    font-size: 28px;
-    margin: 40px 20px 20px 20px 
-  }
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0px 10px 0px;
-    line-height: 1.5;
-    border-radius: 5px;
-    border: 1px solid rgb(14, 6, 100);
-    box-shadow: 3px 1px 3px rgb(212, 211, 212);
-  }
-  .title-1,
-  .title-2,
-  .title-3 {
-    cursor: pointer;
-  }
-  .btn {
-    width: 280px;
-    padding: 10px 0px 10px 0px;
-    margin-bottom: 50%;
-  }
-  .custom-control-custom-radio{
-    
-  }
-  
-  // Extra small devices (portrait phones, less than 360px)
-  @media (min-width: 360px) { ... }
-  
-  // Small devices (landscape phones, 576px and up)
-  @media (min-width: 576px) { ... }
-  
-  // Medium devices (tablets, 768px and up)
-  @media (min-width: 768px) { ... }
-  
-  // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) { ... }
-  
-  // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) { ... }
-  
-  
+   width: 90px;
+   margin: 15px 5px 5px 0px;
+   border: solid;
+}
+body {
+   font-family: Impact, Charcoal, sans-serif;
+   background-color: rbg;
+}
+h1 {
+   margin: 30px 0px 15px 20px;
+}
+h2 {
+   font-size: 24px;
+}
+p {
+   margin-top: 10px;
+   margin-left: 60px;
+}
+h3 {
+   font-size: 28px;
+   margin: 40px 20px 20px 20px;
+}
+textarea {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0px 10px 0px;
+   line-height: 1.5;
+   border-radius: 5px;
+   border: 1px solid rgb(14, 6, 100);
+   box-shadow: 3px 1px 3px rgb(212, 211, 212);
+}
+.title-1,
+.title-2,
+.title-3 {
+   cursor: pointer;
+}
+.btn {
+   width: 280px;
+   padding: 10px 0px 10px 0px;
+   margin-bottom: 50%;
+}
+.custom-control-custom-radio {
+}
+
+// Extra small devices (portrait phones, less than 360px)
+@media (min-width: 360px) {
+   ...;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+   ...;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+   ...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+   ...;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+   ...;
+}
+
+h3 {
+   color: red;
+}
